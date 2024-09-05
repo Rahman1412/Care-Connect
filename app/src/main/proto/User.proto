@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "com.example.careconnect.repository";
+option java_multiple_files = true;
+
+message User {
+  string access_token = 1;
+  string address = 2;
+  optional string appointment_date = 3;
+  string dob = 4;
+  string email = 5;
+  string gender = 6;
+  int32 id = 7;
+  string image = 8;
+  string iquma_no = 9;
+  string mobile_no = 10;
+  string mrn_no = 11;
+  string name = 12;
+  string name_ar = 13;
+  string otp = 14;
+  string patient_blood_group = 15;
+  string patient_id = 16;
+}
